@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Ink Flow Estúdio de Tatuagem</title>
+    <meta name="description" content="Conheça a história do Ink Flow e nossa equipe de tatuadores profissionais em São Paulo.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">INK FLOW</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="#" onclick="checkLoginForBooking()">Agendamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li id="meus-agendamentos-link" style="display: none;"><a href="meus-agendamentos.html">Meus Agendamentos</a></li>
+            </ul>
+            <a href="login.html" style="color: var(--text-light); text-decoration: none; padding: 0.5rem 1rem; border: 1px solid var(--accent-red); border-radius: 4px; transition: all 0.3s ease;">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Histórico Institucional</h2>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin-bottom: 3rem;">
+                    <div>
+                        <h3 style="color: var(--accent-red); margin-bottom: 1rem; font-size: 1.3rem;">Fundação e Trajetória</h3>
+                        <p style="color: var(--text-gray); line-height: 1.7; margin-bottom: 1.5rem;">
+                            Estabelecido em 2025 na região central de São Paulo, o Ink Flow consolidou-se como referência em arte corporal através da combinação entre excelência técnica e inovação artística.
+                        </p>
+                        <p style="color: var(--text-gray); line-height: 1.7;">
+                            Nossa instituição foi concebida com o propósito de elevar os padrões da indústria de tatuagem, implementando protocolos rigorosos de qualidade e segurança.
+                        </p>
+                    </div>
+                    <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem;">
+                        <h4 style="color: var(--accent-red); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem;">Missão Corporativa</h4>
+                        <p style="color: var(--text-gray); line-height: 1.6; font-size: 0.95rem;">
+                            Desenvolver projetos de arte corporal personalizados com excelência técnica, priorizando a segurança do cliente e a inovação artística em cada procedimento realizado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Corpo Técnico Especializado</h2>
+            <p style="text-align: center; color: var(--text-gray); margin-bottom: 3rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Nossa equipe é composta por profissionais altamente qualificados, cada um especializado em técnicas específicas de arte corporal
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 100px; height: 100px; background: var(--accent-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white; font-weight: bold;">MS</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 0.5rem;">Marcus Silva</h3>
+                    <p style="color: var(--text-white); font-size: 0.9rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Diretor Técnico</p>
+                    <div style="text-align: left; margin-bottom: 1.5rem;">
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Especialização:</strong> Realismo Fotográfico</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Formação:</strong> Bacharelado em Artes Visuais - USP</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem;"><strong>Experiência:</strong> 12 anos no mercado</p>
+                    </div>
+                </div>
+                
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 100px; height: 100px; background: var(--accent-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white; font-weight: bold;">AC</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 0.5rem;">Ana Costa</h3>
+                    <p style="color: var(--text-white); font-size: 0.9rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Artista Sênior</p>
+                    <div style="text-align: left; margin-bottom: 1.5rem;">
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Especialização:</strong> Aquarela e Fine Line</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Certificação:</strong> Técnicas Avançadas - Europa</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem;"><strong>Experiência:</strong> 9 anos no mercado</p>
+                    </div>
+                </div>
+                
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 100px; height: 100px; background: var(--accent-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white; font-weight: bold;">RS</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 0.5rem;">Rafael Santos</h3>
+                    <p style="color: var(--text-white); font-size: 0.9rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Especialista Técnico</p>
+                    <div style="text-align: left; margin-bottom: 1.5rem;">
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Especialização:</strong> Geométrico e Tribal</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Formação:</strong> Design Gráfico - Mackenzie</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem;"><strong>Experiência:</strong> 14 anos no mercado</p>
+                    </div>
+                </div>
+                
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 100px; height: 100px; background: var(--accent-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white; font-weight: bold;">CM</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 0.5rem;">Carla Mendes</h3>
+                    <p style="color: var(--text-white); font-size: 0.9rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Artista Especializada</p>
+                    <div style="text-align: left; margin-bottom: 1.5rem;">
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Especialização:</strong> Blackwork e Ornamental</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Certificação:</strong> Técnicas Tradicionais</p>
+                        <p style="color: var(--text-gray); font-size: 0.9rem;"><strong>Experiência:</strong> 8 anos no mercado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: var(--secondary-dark); margin: 0; padding: 4rem 2rem;">
+            <h2>Princípios Organizacionais</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                <div style="background: var(--primary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 60px; height: 60px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-weight: bold; color: white; font-size: 1.2rem;">ART</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 1rem;">Excelência Artística</h3>
+                    <p style="color: var(--text-gray); line-height: 1.6;">Desenvolvimento de projetos personalizados com padrões artísticos elevados e técnicas inovadoras.</p>
+                </div>
+                <div style="background: var(--primary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 60px; height: 60px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-weight: bold; color: white; font-size: 1.2rem;">SEC</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 1rem;">Segurança Integral</h3>
+                    <p style="color: var(--text-gray); line-height: 1.6;">Cumprimento rigoroso de protocolos sanitários e normas de biossegurança estabelecidas pelos órgãos competentes.</p>
+                </div>
+                <div style="background: var(--primary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 60px; height: 60px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-weight: bold; color: white; font-size: 1.2rem;">PRO</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 1rem;">Profissionalismo</h3>
+                    <p style="color: var(--text-gray); line-height: 1.6;">Atendimento especializado com foco na satisfação do cliente e relacionamento de longo prazo.</p>
+                </div>
+                <div style="background: var(--primary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 60px; height: 60px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-weight: bold; color: white; font-size: 1.2rem;">QUA</div>
+                    <h3 style="color: var(--accent-red); margin-bottom: 1rem;">Qualidade Premium</h3>
+                    <p style="color: var(--text-gray); line-height: 1.6;">Utilização exclusiva de equipamentos de última geração e materiais certificados internacionalmente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="text-align: center;">
+            <h2>Licenças e Certificações Técnicas</h2>
+            <p style="color: var(--text-gray); margin-bottom: 3rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Nossa instituição opera em total conformidade com as regulamentações sanitárias vigentes, mantendo todas as licenças e certificações necessárias atualizadas.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 80px; height: 80px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">ANV</div>
+                    <h4 style="color: var(--accent-red); margin-bottom: 0.5rem;">ANVISA</h4>
+                    <p style="color: var(--text-gray); font-size: 0.9rem;">Licença Sanitária<br>Vigente</p>
+                </div>
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 80px; height: 80px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">PS</div>
+                    <h4 style="color: var(--accent-red); margin-bottom: 0.5rem;">Primeiros Socorros</h4>
+                    <p style="color: var(--text-gray); font-size: 0.9rem;">Equipe<br>Certificada</p>
+                </div>
+                <div style="background: var(--secondary-dark); border: 1px solid #333; border-radius: 8px; padding: 2rem; text-align: center;">
+                    <div style="width: 80px; height: 80px; background: var(--accent-red); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">BIO</div>
+                    <h4 style="color: var(--accent-red); margin-bottom: 0.5rem;">Biossegurança</h4>
+                    <p style="color: var(--text-gray); font-size: 0.9rem;">Protocolos<br>Certificados</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
+            <a href="https://instagram.com/inkflowsp" target="_blank" style="color: var(--text-gray); text-decoration: none; padding: 0.5rem; border: 1px solid #333; border-radius: 4px; transition: all 0.3s ease;" aria-label="Instagram">Instagram</a>
+            <a href="https://tiktok.com/@inkflowsp" target="_blank" style="color: var(--text-gray); text-decoration: none; padding: 0.5rem; border: 1px solid #333; border-radius: 4px; transition: all 0.3s ease;" aria-label="TikTok">TikTok</a>
+            <a href="https://wa.me/5511999999999" target="_blank" style="color: var(--text-gray); text-decoration: none; padding: 0.5rem; border: 1px solid #333; border-radius: 4px; transition: all 0.3s ease;" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+        <div style="text-align: center; color: var(--text-gray); font-size: 0.9rem;">
+            <p>&copy; 2025 Ink Flow Estúdio de Tatuagem Ltda. Todos os direitos reservados.</p>
+            <p>São Paulo, SP - Brasil | CNPJ: 00.000.000/0001-00</p>
+        </div>
+    </footer>
+
+    <script src="js/auth.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // Atualizar navegação baseada no status de login
+        if (window.authSystem) {
+            window.authSystem.updateNavigation();
+        }
+    </script>
+</body>
+</html>
